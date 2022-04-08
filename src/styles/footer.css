@@ -1,0 +1,16 @@
+.footer .line-5 {
+  content: url(../img/lines/line-5-mobile.svg);
+  margin-bottom: 10px;
+}
+.footer .line-6 {
+  content: url(../img/lines/line-6-mobile.svg);
+}
+
+.footer__text {
+  font-size: .7rem;
+  padding: 50px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--third-white);
+}

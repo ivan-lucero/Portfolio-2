@@ -1,0 +1,189 @@
+.header {
+  width: 100vw;
+  height: 100vh;
+  color: var(--main-white);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom,rgba(0, 0 ,0 ,0), 90% ,#0A101F);
+}
+.header__menu{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  border: none;
+  transition: .3s ease-out; 
+}
+ .sticky {
+  
+  background-color: var(--main-blue);  z-index: 1;
+  border-bottom: solid 3px var(--main-green);
+  transition: .1s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 11111;
+}
+.header__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 50px;
+  margin-top: 80px;
+}
+.header__item {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--main-white);
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* padding: 10px; */
+}
+.header__item:visited{
+  color: var(--main-white);
+}
+.header__item a{
+  color: var(--main-white);
+}
+.header__item a:visited{
+  color: var(--main-white);
+}
+
+.header__list .header__item{
+  padding: 30px;
+}
+.header__close {
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  color: var(--main-green);
+}
+.header__buttons{
+  display: flex;
+  align-items: center;
+  color: var(--main-green);
+  font-size: 1.7rem;
+}
+.header__button {
+  padding: 5px;
+  color: var(--main-green);
+}
+.header__button--burguer{
+  color: var(--main-white);
+  font-size: 2rem;
+}
+.header__item--logo span{
+  color: var(--main-green);
+}
+
+/* Header Responsive Desktop */
+@media screen and (min-width: 1024px) {
+  
+  .header__menu {
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 100px;
+    margin: 0;
+  }
+  .header__item--logo{
+    position: absolute;
+    left: 50px;
+  }
+  .header__item--logo span:hover{
+    color: var(--secundary-green);
+  }
+  .header__item--logo span:active{
+    color: var(--third-green);
+  }
+  .header__item a:hover {
+    color: var(--secundary-white);
+  }
+  .header__item a:active {
+    color: var(--third-white);
+  }
+  .header__button:hover {
+    color: var(--secundary-green);
+  }
+  .header__button:active {
+    color: var(--third-green);
+  }
+  .header__list {
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    height: 0;
+  }
+  .header__close {
+    display: none; 
+  }
+  .header__button--burguer{
+    display: none;
+  }
+  
+}
+
+
+/* --------- BANNER : ----------*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 5rem;
+}
+.banner__container {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.banner__title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 3rem;
+  color: var(--main-green);
+  padding: 0;
+  margin-bottom: 0;
+}
+.banner__subtitle {
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.banner .title:last-child {
+  text-align: right;
+  padding-right: 5rem;
+}
+.banner .title:last-child::after {
+  content: url(../img/lines/line-1-mobile.svg);
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+}
+@media screen and (min-width: 1024px) {
+  
+}
+
+
+/* TOOGLE  */
+@media screen and (max-width: 1023px){
+  
+  .header__toggle{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+    transition: .3s ease-out;
+    transform: translateX(110%);
+    background-color: var(--secundary-blue);
+    color: var(--white);
+    border-left: solid 3px var(--main-green);
+  }
+  
+  .active{
+    transform: translateX(0);
+    z-index: 1;
+  }
+}

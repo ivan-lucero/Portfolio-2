@@ -1,0 +1,25 @@
+.tecnology {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+
+.tecnology__square {
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-green);
+  transform: rotate(45deg);
+  margin-right: 5px;
+}
+.tecnology__square--secundary {
+  background-color: var(--third-green);
+}
+
+.tecnology__text {
+  font-weight: 700;
+}
+.tecnology__text--secundary {
+  font-weight: 300;
+  color: var(--secundary-white);
+}

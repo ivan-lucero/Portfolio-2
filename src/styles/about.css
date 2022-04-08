@@ -1,0 +1,71 @@
+p{
+  margin: 0;
+}
+
+.about {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-image: linear-gradient(to bottom,var(--secundary-blue) , 95% ,var(--main-blue));
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin-bottom: 70px;
+}
+
+.bio__container {
+  text-align: center;
+}
+
+.bio__img {
+  margin: 20px 0;
+  width: 100px;
+  background-color: var(--third-blue);
+  border-radius: 50%;
+  border: solid 3px var(--main-green);
+}
+.bio__line2 {
+  margin: 15px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  content: url(../img/lines/line-2-mobile.svg);
+}
+.bio__line3 {
+  margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  content: url(../img/lines/line-3-mobile.svg);
+}
+.bio__line4 {
+  position: absolute;
+  right: 0;
+  padding-top: 70px;
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  background-position: right center;
+  content: url(../img/lines/line-4-mobile.svg);
+}
+
+.bio__text {
+  margin: 10px 0;
+  font-weight: 300;
+  line-height: 26px;
+  padding: 0 20px;
+  font-size: 1.05rem;
+}
+
+.bio .button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+.bio .button .icon {
+  font-size: 1.6rem;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.tecnologies__container {
+  padding: 20px 60px;
+}
+
