@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3d54d506.css",
+    "main.js": "/Portfolio/static/js/main.d64e295d.js",
+    "static/media/luceroNievas.JPG": "/Portfolio/static/media/luceroNievas.4e0a6573669b0ee9ef3c.JPG",
+    "static/media/CV-IvanLucero.pdf": "/Portfolio/static/media/CV-IvanLucero.ac182e8296d189a07efc.pdf",
+    "static/media/foto-perfil.png": "/Portfolio/static/media/foto-perfil.aa45385ae5c318e656ce.png",
+    "static/media/en-desarrollo.jpg": "/Portfolio/static/media/en-desarrollo.78cf22bb2d621a012c72.jpg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/line-2-mobile.svg": "/Portfolio/static/media/line-2-mobile.57285b1ab318986d760c.svg",
+    "static/media/line-3-mobile.svg": "/Portfolio/static/media/line-3-mobile.10e652d86aab721a00a4.svg",
+    "static/media/line-4-desktop.svg": "/Portfolio/static/media/line-4-desktop.fc12e8f97906bea3ca2a.svg",
+    "static/media/line-6-mobile.svg": "/Portfolio/static/media/line-6-mobile.0008c6b528fdffc31903.svg",
+    "static/media/line-5-desktop.svg": "/Portfolio/static/media/line-5-desktop.7d5d3b7b3c8d4f2dff09.svg",
+    "static/media/line-1-desktop.svg": "/Portfolio/static/media/line-1-desktop.a583a895f68142b36b66.svg",
+    "static/media/line-3-desktop.svg": "/Portfolio/static/media/line-3-desktop.2042be9a7cfa5915cad2.svg",
+    "static/media/line-11-desktop.svg": "/Portfolio/static/media/line-11-desktop.f4f49171ad9ca83d89fc.svg",
+    "static/media/line-10-desktop.svg": "/Portfolio/static/media/line-10-desktop.fef107999f9fd479ffe2.svg",
+    "static/media/line-2-desktop.svg": "/Portfolio/static/media/line-2-desktop.30ea9acb1876a336ccdb.svg",
+    "static/media/line-4-mobile.svg": "/Portfolio/static/media/line-4-mobile.02b69aea8f0490e95d2c.svg",
+    "static/media/line-6-desktop.svg": "/Portfolio/static/media/line-6-desktop.46f3e56bf6daa7ea6b5d.svg",
+    "static/media/line-7-desktop.svg": "/Portfolio/static/media/line-7-desktop.3b0e9d7c37e5a6b325c7.svg",
+    "static/media/line-8-desktop.svg": "/Portfolio/static/media/line-8-desktop.dccf115a7a4d9be17f9e.svg",
+    "static/media/line-9-desktop.svg": "/Portfolio/static/media/line-9-desktop.c549f852bdf8d02c7428.svg",
+    "static/media/line-5-mobile.svg": "/Portfolio/static/media/line-5-mobile.2fe0090dc02a086c08d2.svg",
+    "static/media/line-1-mobile.svg": "/Portfolio/static/media/line-1-mobile.898ee138ef2eb17fe7be.svg",
+    "main.3d54d506.css.map": "/Portfolio/static/css/main.3d54d506.css.map",
+    "main.d64e295d.js.map": "/Portfolio/static/js/main.d64e295d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d54d506.css",
+    "static/js/main.d64e295d.js"
+  ]
+}
