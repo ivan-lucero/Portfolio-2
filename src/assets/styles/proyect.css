@@ -24,13 +24,17 @@
   transition: .3s;
 }
 
+.proyect__title-click {
+  cursor: pointer;
+  padding-bottom: 35px;
+}
 .proyect__title {
   margin-top: 10px;
   font-weight: 400;
 }
 
 .proyect__buttons {
-  margin-top: 60px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   padding-left: 40px;
@@ -71,6 +75,6 @@
   }
 
   to {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
 }

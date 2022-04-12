@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import "../styles/header.css"
-
+import "../assets/styles/header.css"
+import {Link} from "react-scroll"
 export const Header = () => {
 
   const [fixed, setFixed] = useState(false)
@@ -22,14 +22,27 @@ export const Header = () => {
   return (
     <header id="inicio" className="header">
       <div className={fixed ? "header__menu sticky" : "header__menu"} onScroll={sticky}>
-        <a className="header__item header__item--logo" href="#"><span>.il()</span></a>
+        <Link className="header__item header__item--logo" to="banner" spy={true} smooth={true} offset={0} duration={500}><span>.il()</span></Link>
         <nav className={menu ? "header__toggle active" : "header__toggle"}>
           <span className='header__close' onClick={openMenu}><span className="iconify-inline" data-icon="ant-design:close-outlined"></span></span>
             <ul className="header__list">
-              <li className="header__item"><a href="#inicio"><span>.</span>il<span>()</span></a></li>
-              <li className="header__item"><a href="#sobremi"><span>.</span>sobreMi<span>()</span></a></li>
-              <li className="header__item"><a href="#proyectos"><span>.</span>proyectos<span>()</span></a></li>
-              <li className="header__item"><a href="#contacto"><span>.</span>contacto<span>()</span></a></li>
+              <li className="header__item">
+                {/* <a href="#"><span>.</span>il<span>()</span></a> */}
+                <Link to="banner" spy={true} smooth={true} offset={0} duration={500} onClick={openMenu}><span>.</span>il<span>()</span></Link>
+              </li>
+              <li className="header__item">
+                {/* <a href="#about"><span>.</span>sobreMi<span>()</span></a> */}
+                <Link to="about" spy={true} smooth={true} offset={-30} duration={500} onClick={openMenu}><span>.</span>sobreMi<span>()</span></Link>
+              </li>
+              <li className="header__item">
+                {/* <a href="#proyects"><span>.</span>proyectos<span>()</span></a> */}
+                <Link to="proyects" spy={true} smooth={true} offset={-130} duration={500} onClick={openMenu}><span>.</span>proyectos<span>()</span></Link>
+              </li>
+              <li className="header__item">
+                {/* <a href="#contact"><span>.</span>contacto<span>()</span></a> */}
+                <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={openMenu}><span>.</span>contacto<span>()</span></Link>
+
+              </li>
             </ul>
         </nav>
         <div className='header__buttons'>
@@ -39,13 +52,20 @@ export const Header = () => {
         </div>
       </div>
 
-      <section className="banner">
-        <h3 className='title'><span>.</span>il <span>() {"{"}</span></h3>
-        <div className='banner__container'>
-          <h2 className='banner__title'>Ivan Lucero</h2>
-          <h1 className='banner__subtitle'>Programador Web (Backend)</h1>
+      <section id='banner' className="banner">
+        <div className='banner__container-desktop'>
+          <h3 className='title'><span>.</span>il <span>() {"{"}</span></h3>
+          <div className='banner__container'>
+            <h2 className='banner__title'>Ivan Lucero</h2>
+            <h1 className='banner__subtitle'>Programador Web (Backend)</h1>
+          </div>
+            <span className='title'>{"}"}</span>
         </div>
-        <span className='title'>{"}"}</span>
+        <div className='banner__lines-desktop'>
+          <div className='line-1-desktop'></div>
+          <div className='line-2-desktop'></div>
+          <div className='line-3-desktop'></div>
+        </div>
       </section>
     </header>
   )

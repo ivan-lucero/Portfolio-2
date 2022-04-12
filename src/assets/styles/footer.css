@@ -14,3 +14,13 @@
   letter-spacing: 1px;
   color: var(--third-white);
 }
+
+@media screen and (min-width: 1200px) {
+  .footer .line-5 {
+    content: url(../img/lines/desktop/line-10-desktop.svg);
+  }
+  .footer .line-6 {
+    content: url(../img/lines/desktop/line-11-desktop.svg);
+  }
+
+}

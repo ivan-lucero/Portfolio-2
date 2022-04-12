@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/tecnology.css"
+import "../assets/styles/tecnology.css"
 
 export const Tecnology = (props) => {
   let {name, secundary} = props
