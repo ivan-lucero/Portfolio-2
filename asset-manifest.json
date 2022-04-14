@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3d54d506.css",
-    "main.js": "/Portfolio/static/js/main.d64e295d.js",
+    "main.css": "/Portfolio/static/css/main.48fff1fe.css",
+    "main.js": "/Portfolio/static/js/main.973a0375.js",
     "static/media/luceroNievas.JPG": "/Portfolio/static/media/luceroNievas.4e0a6573669b0ee9ef3c.JPG",
     "static/media/CV-IvanLucero.pdf": "/Portfolio/static/media/CV-IvanLucero.ac182e8296d189a07efc.pdf",
     "static/media/foto-perfil.png": "/Portfolio/static/media/foto-perfil.aa45385ae5c318e656ce.png",
@@ -24,11 +24,11 @@
     "static/media/line-9-desktop.svg": "/Portfolio/static/media/line-9-desktop.c549f852bdf8d02c7428.svg",
     "static/media/line-5-mobile.svg": "/Portfolio/static/media/line-5-mobile.2fe0090dc02a086c08d2.svg",
     "static/media/line-1-mobile.svg": "/Portfolio/static/media/line-1-mobile.898ee138ef2eb17fe7be.svg",
-    "main.3d54d506.css.map": "/Portfolio/static/css/main.3d54d506.css.map",
-    "main.d64e295d.js.map": "/Portfolio/static/js/main.d64e295d.js.map"
+    "main.48fff1fe.css.map": "/Portfolio/static/css/main.48fff1fe.css.map",
+    "main.973a0375.js.map": "/Portfolio/static/js/main.973a0375.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d54d506.css",
-    "static/js/main.d64e295d.js"
+    "static/css/main.48fff1fe.css",
+    "static/js/main.973a0375.js"
   ]
 }
