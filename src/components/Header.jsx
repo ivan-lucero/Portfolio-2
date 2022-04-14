@@ -56,8 +56,8 @@ export const Header = () => {
         <div className='banner__container-desktop'>
           <h3 className='title'><span>.</span>il <span>() {"{"}</span></h3>
           <div className='banner__container'>
-            <h2 className='banner__title'>Ivan Lucero</h2>
-            <h1 className='banner__subtitle'>Programador Web (Backend)</h1>
+            <h2 className='banner__title'>Iván Lucero</h2>
+            <h1 className='banner__subtitle'>Programador Web</h1>
           </div>
             <span className='title'>{"}"}</span>
         </div>

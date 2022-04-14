@@ -17,13 +17,13 @@ export const Proyects = () => {
         githubUrl={"https://github.com/ivan-lucero/LuceroNievas-Estudio-Juridico-LandingPage"}
         />
 
-        <Proyect 
+        {/* <Proyect 
         title="E-Commerce productos Tech" 
         imgUrl={inDevelop} 
-        />
+        /> */}
 
         <Proyect 
-        title="FutbolData - API de futbol" 
+        title="futbolargdb - API de futbol de la liga Argentina" 
         imgUrl={inDevelop} 
         />
       </div>

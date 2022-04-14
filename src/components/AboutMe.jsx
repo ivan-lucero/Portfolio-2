@@ -15,10 +15,10 @@ export const AboutMe = () => {
           <img className='bio__img' src={perfil} alt="foto de perfil" />
           <div className='bio__container-text'>
             <p className='bio__text'>
-              Hola, Mi nombre es Iván, tengo 24 años, nací y vivo en San Luis, Argentina. Soy Programador Web Backend con solidos conocimientos de Frontend.
+              Hola, Mi nombre es Iván, tengo 24 años, nací y vivo en San Luis, Argentina. Soy Programador Web Full-Stack, mas interesado en el Backend.
             </p>
             <p className='bio__text'>
-            Actualmente estudio Tecnicatura en Web en la Universidad Nacional de San Luis (UNSL), y al mismo tiempo aprendo tecnologias web de manera autididacta para seguir progresando en mis conocimientos.
+            Actualmente estudio Tecnicatura en Web en la Universidad Nacional de San Luis (UNSL), y al mismo tiempo aprendo tecnologias web de manera autididacta para continuar progresando en mis conocimientos.
             </p>
           </div>
         </div>
