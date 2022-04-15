@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.48fff1fe.css",
-    "main.js": "/Portfolio/static/js/main.53a85a35.js",
+    "main.js": "/Portfolio/static/js/main.bb676e5b.js",
     "static/media/luceroNievas.JPG": "/Portfolio/static/media/luceroNievas.4e0a6573669b0ee9ef3c.JPG",
     "static/media/CV-IvanLucero.pdf": "/Portfolio/static/media/CV-IvanLucero.ac182e8296d189a07efc.pdf",
     "static/media/foto-perfil.png": "/Portfolio/static/media/foto-perfil.aa45385ae5c318e656ce.png",
@@ -25,10 +25,10 @@
     "static/media/line-5-mobile.svg": "/Portfolio/static/media/line-5-mobile.2fe0090dc02a086c08d2.svg",
     "static/media/line-1-mobile.svg": "/Portfolio/static/media/line-1-mobile.898ee138ef2eb17fe7be.svg",
     "main.48fff1fe.css.map": "/Portfolio/static/css/main.48fff1fe.css.map",
-    "main.53a85a35.js.map": "/Portfolio/static/js/main.53a85a35.js.map"
+    "main.bb676e5b.js.map": "/Portfolio/static/js/main.bb676e5b.js.map"
   },
   "entrypoints": [
     "static/css/main.48fff1fe.css",
-    "static/js/main.53a85a35.js"
+    "static/js/main.bb676e5b.js"
   ]
 }
