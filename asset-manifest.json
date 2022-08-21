@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2c504797.css",
-    "main.js": "/Portfolio/static/js/main.f5279854.js",
+    "main.css": "/Portfolio/static/css/main.c58bcdf2.css",
+    "main.js": "/Portfolio/static/js/main.e30030ba.js",
+    "static/media/gl-concesionaria-preview.PNG": "/Portfolio/static/media/gl-concesionaria-preview.f25e9f99ae59e69cd224.PNG",
     "static/media/luceroNievas.JPG": "/Portfolio/static/media/luceroNievas.4e0a6573669b0ee9ef3c.JPG",
+    "static/media/minFinance-preview.jpg": "/Portfolio/static/media/minFinance-preview.15aaf4c2065bd85155d5.jpg",
     "static/media/CV-IvanLucero.pdf": "/Portfolio/static/media/CV-IvanLucero.045a4275a8a879d4e4d9.pdf",
     "static/media/foto-perfil.png": "/Portfolio/static/media/foto-perfil.aa45385ae5c318e656ce.png",
     "static/media/en-desarrollo.jpg": "/Portfolio/static/media/en-desarrollo.78cf22bb2d621a012c72.jpg",
@@ -24,11 +26,11 @@
     "static/media/line-9-desktop.svg": "/Portfolio/static/media/line-9-desktop.c549f852bdf8d02c7428.svg",
     "static/media/line-5-mobile.svg": "/Portfolio/static/media/line-5-mobile.2fe0090dc02a086c08d2.svg",
     "static/media/line-1-mobile.svg": "/Portfolio/static/media/line-1-mobile.898ee138ef2eb17fe7be.svg",
-    "main.2c504797.css.map": "/Portfolio/static/css/main.2c504797.css.map",
-    "main.f5279854.js.map": "/Portfolio/static/js/main.f5279854.js.map"
+    "main.c58bcdf2.css.map": "/Portfolio/static/css/main.c58bcdf2.css.map",
+    "main.e30030ba.js.map": "/Portfolio/static/js/main.e30030ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c504797.css",
-    "static/js/main.f5279854.js"
+    "static/css/main.c58bcdf2.css",
+    "static/js/main.e30030ba.js"
   ]
 }
